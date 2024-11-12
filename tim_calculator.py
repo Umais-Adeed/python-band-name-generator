@@ -15,3 +15,7 @@ tot = bill_total / people
 # Rounding and Final Calculation
 div = round(tot, 2)  # Rounded calculation
 final_result = "{:.2f}".format(tot)  # Formatted result
+
+# Output the Results
+print(f"Each person should pay: {div} and the total bill with tip is: {bill_total}")
+print(f"Formatted final result: {final_result}")
