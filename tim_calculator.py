@@ -11,3 +11,7 @@ bill_total = total + per
 # Splitting the Bill
 people = int(input("How many people to split the bill? "))
 tot = bill_total / people
+
+# Rounding and Final Calculation
+div = round(tot, 2)  # Rounded calculation
+final_result = "{:.2f}".format(tot)  # Formatted result
