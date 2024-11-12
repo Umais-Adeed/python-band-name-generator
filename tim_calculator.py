@@ -7,3 +7,7 @@ percentage = int(input("What percentage tip would you like to give? 10, 12, or 1
 inc = percentage / 100
 per = total * inc
 bill_total = total + per
+
+# Splitting the Bill
+people = int(input("How many people to split the bill? "))
+tot = bill_total / people
